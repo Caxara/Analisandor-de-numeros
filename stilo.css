@@ -59,15 +59,15 @@ section:active{
     font-size: 14px;
 }
 #botao{
-    width: 55px;
-    height: 25px;
+    width: 60px;
+    height: 28px;
     font-size: 15px;
     font-family: VT323;
     cursor: pointer;
     background-color: #32dc32;
     border: 10px;
     color: #000;
-    margin: 3px;
+    margin: 2px;
     border-radius: 0.3em;
     border-style: solid;
     border-width: 2px;
