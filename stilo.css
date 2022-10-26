@@ -95,6 +95,7 @@ select{
     border-radius: 00.4em;
     box-shadow: 2px 2px 2px #203838;
     border: 1px solid #000;
+    margin-bottom: 15px;
 }
 .finalizar:active{
     position: relative;
