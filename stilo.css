@@ -81,6 +81,8 @@ section p{
 select{
     width: 150px;
     background-color: rgb(103, 100, 100);
+    border: 2px solid #000;
+    
 }
 .finalizar{
     width: 60px;
@@ -122,4 +124,22 @@ footer:hover{
     padding: 3px;
     box-shadow: 3px 2px 1px #033f00;
     top: 2px;
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #04cb0e #070d12;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #070d12;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #04cb0e;
+    border-radius: 20px;
+    border: 3px solid #070d12;
 }
